@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/schema/eb" xmlns:tns="http://www.example.org/schema/eb" elementFormDefault="qualified">
+    <element name="user">
+        <complexType>
+            <attribute name="id" type="string" use="required"/>
+            <attribute name="name" type="string" default="mengfanwu"/>
+            <attribute name="age" type="int" use="required"/>
+        </complexType>
+    </element>
+</schema>
